@@ -1,0 +1,19 @@
+{
+  "name": "movie-api",
+  "version": "1.0.0",
+  "description": "api",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseluiscodesk8/movie-api.git"
+  },
+  "author": "jose luis gomez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joseluiscodesk8/movie-api/issues"
+  },
+  "homepage": "https://github.com/joseluiscodesk8/movie-api#readme"
+}
