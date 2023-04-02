@@ -1,3 +1,5 @@
 _cacache/
 _logs/
 _update-notifier-last-checked
+notex.txt
+/node_modules

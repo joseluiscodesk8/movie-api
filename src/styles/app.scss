@@ -1,0 +1,10 @@
+@use "./components/globalStyles";
+@use "./components/variables";
+@use "./components/header";
+@use "./components/trending";
+@use "./components/genericList";
+@use "./components/footer";
+
+.inactive {
+  display: none;
+}
