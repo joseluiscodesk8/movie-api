@@ -37,7 +37,7 @@
   height: 8px;
 }
 #id28 {
-  --idColor: var(--yellow);
+  --idColor: #122311;
 }
 #id12 {
   --idColor: var(--red);
@@ -92,4 +92,30 @@
 }
 #id37 {
   --idColor: var(--darkBlue);
+}
+
+.category-container--loading {
+  background: var(--purple-light-2);
+  border-radius: 8px;
+  height: 25px;
+  min-height: 25px;
+  max-height: 25px;
+  width: 150px;
+  min-width: 150px;
+  max-width: 150px;
+  margin-bottom: 15px;
+  animation: loading-skeleton infinite 1.5s;
+}
+.category-container--loading:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+@keyframes loading-skeleton {
+  0%,
+  100% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 0%;
+  }
 }

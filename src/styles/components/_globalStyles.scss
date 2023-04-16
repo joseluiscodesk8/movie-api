@@ -5,7 +5,7 @@ html {
   background-color: var(--purple-medium-3);
 }
 body {
-  background-color: var(--purple-light-1);
+  background: linear-gradient(45deg, #000, #131124, #000);
   color: var(--purple-dark-2);
   font-family: var(--font-family-text);
   font-weight: var(--font-weight-text1);
@@ -56,4 +56,13 @@ button {
   font-weight: var(--font-weight-text2);
   font-size: 14px;
   cursor: pointer;
+}
+
+a,
+h1,
+h2,
+h3 {
+  color: #fff;
+  letter-spacing: 3px;
+  text-shadow: 0 0 15px #131124;
 }
