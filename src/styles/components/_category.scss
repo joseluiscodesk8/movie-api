@@ -1,12 +1,14 @@
 .categoriesPreview-container {
-  padding: 0 24px;
-}
-.categoriesPreview-container {
   margin-top: 48px;
+  padding: 0 24px;
 }
 
 .categoriesPreview-title {
+  text-align: center;
+  text-shadow: 0 0 10px #d5d5de;
+  font-size: 1.5rem;
   margin-bottom: 24px;
+  border-bottom: 1px solid #ccc;
 }
 .categoriesPreview-list,
 .categories-list {
@@ -35,63 +37,6 @@
   margin-right: 8px;
   width: 8px;
   height: 8px;
-}
-#id28 {
-  --idColor: #122311;
-}
-#id12 {
-  --idColor: var(--red);
-}
-#id16 {
-  --idColor: var(--green);
-}
-#id35 {
-  --idColor: var(--lightBlue);
-}
-#id80 {
-  --idColor: var(--darkBlue);
-}
-#id99 {
-  --idColor: var(--purple-dark-1);
-}
-#id18 {
-  --idColor: var(--purple-medium-1);
-}
-#id10751 {
-  --idColor: var(--yellow);
-}
-#id14 {
-  --idColor: var(--red);
-}
-#id36 {
-  --idColor: var(--green);
-}
-#id27 {
-  --idColor: var(--lightBlue);
-}
-#id10402 {
-  --idColor: var(--darkBlue);
-}
-#id9648 {
-  --idColor: var(--purple-dark-1);
-}
-#id10749 {
-  --idColor: var(--purple-medium-1);
-}
-#id878 {
-  --idColor: var(--yellow);
-}
-#id10770 {
-  --idColor: var(--red);
-}
-#id53 {
-  --idColor: var(--green);
-}
-#id10752 {
-  --idColor: var(--lightBlue);
-}
-#id37 {
-  --idColor: var(--darkBlue);
 }
 
 .category-container--loading {

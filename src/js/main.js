@@ -67,7 +67,8 @@ function createCategories(categories, container) {
 
     const categoryTitle = document.createElement("h3");
     categoryTitle.classList.add("category-title");
-    categoryTitle.setAttribute("id", "id" + category.id);
+    // categoryTitle.setAttribute("id", "id" + category.id);
+    categoryTitle.innerHTML = "֍";
     categoryTitle.addEventListener("click", () => {
       location.hash = `#category=${category.id}-${category.name}`;
     });

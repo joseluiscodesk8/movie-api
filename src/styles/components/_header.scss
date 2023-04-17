@@ -9,14 +9,10 @@
   top: 0;
   width: 100%;
 }
-.header-container--categoryView {
-  background: linear-gradient(
-    180deg,
-    rgba(238, 204, 117, 0.5) 0%,
-    rgba(238, 204, 117, 0) 72.92%
-  );
-}
 .header-title {
+  text-align: center;
+  text-shadow: 0 0 10px #d5d5de;
+  font-size: 2rem;
   margin-bottom: 16px;
 }
 .header-arrow {
